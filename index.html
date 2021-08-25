@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,20 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     </head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
-<body>
-  <div class="paper">
-      <div class="tag">
-      <h1>HELLO</h1>
-      <h2>my name is</h2>
-      <p>Phoenix Nicholson</p>
-      </div>
-  </div>
-</body>
-  
 
-            
+ <link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+    <section class="inputs">
+        <label>
+            Name:
+            <input id="name-input">    
+        </label>
+        <button id="update-button">Update</button>
+    </section>
+
+
+  <div class="paper">
+     <p class="name-tag">
+         <strong class="greeting">HELLO</strong>
+         my name is 
+         <em id="name" class=name>Phoenix Nicholson</em>
+     </p>
+      </div>
+
+  <script src="app.js" type="module"></script>
 
 </body>
 </html>
